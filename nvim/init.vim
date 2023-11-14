@@ -8,9 +8,11 @@
 " :PlugInstall
 
 " Burn baby!
+" to play type :VimBeGood
 
 call plug#begin()
 
+Plug 'ThePrimeagen/vim-be-good'
 Plug 'sainnhe/sonokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
