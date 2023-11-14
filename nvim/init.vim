@@ -1,5 +1,13 @@
-" Need install vim plug
+" To install recent version use :
+" sudo snap install nvim --classic
+
+" After install vim plug 
 " https://github.com/junegunn/vim-plug
+
+" Open nbim and run 
+" :PlugInstall
+
+" Burn baby!
 
 call plug#begin()
 
