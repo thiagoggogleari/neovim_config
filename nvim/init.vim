@@ -1,7 +1,8 @@
+" Need install vim plug
+" https://github.com/junegunn/vim-plug
 
 call plug#begin()
 
-"Plugins aqui
 Plug 'sainnhe/sonokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -14,7 +15,6 @@ Plug 'dense-analysis/ale'
 Plug 'honza/vim-snippets'
 Plug 'davidhalter/jedi-vim', {'for': 'python', 'do': ':UpdateRemotePlugins'}
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
-
 
 if (has("nvim"))
     Plug 'nvim-lua/plenary.nvim'
